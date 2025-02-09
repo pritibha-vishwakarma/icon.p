@@ -1,0 +1,87 @@
+/* .adi {
+color: #fcc000;
+font-size: 50px;
+}
+#bg {
+    background-color: green;
+    color: white;
+}
+#hello{
+    color : red ;
+    background-color: aqua;
+}
+#box{
+    background-color: rgb(235, 82, 171);
+    width: 300px;
+    height: 250px;
+    outline: 5px solid green;
+    outline-offset: 3px;
+    padding: 5px;
+    margin: 30px;
+    border-radius: 40px;
+    
+}
+#box p{
+    font-size: 30px;
+    justify-content: space-evenly;
+    align-self: center;
+}
+ 
+.btn{
+   width: 200px;
+   height: 52px;
+   background : linear-gradient(45deg,#ff0f7b, #f89b29);
+   border-radius: 30px;
+   outline: 2px solid grey;
+   outline-offset: 4px; 
+   transition: all 0.8s;
+}
+.btn:active{
+    outline-offset: -8px;
+    border-color:  3px solid black;
+} 
+
+/* .container{ */
+    /* flex-direction: row-reverse;
+    justify-content:space-evenly;
+    align-items: center;
+    /* align-items: start; */
+/* } */
+
+/* .box{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(221, 96, 194);
+}    height: 100vh; */
+    /* display: flex;
+    gap: 10px; */ 
+
+
+/* interview question
+difference btw justify content
+space around,
+space evenly,
+space between */
+
+
+ .parent{
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+ }
+.btn{
+    width: 200px;
+    height: 52px;
+    background : linear-gradient(45deg,#ff0f7b, #f89b29);
+    border-radius: 30px;
+    outline: 2px solid grey;
+    outline-offset: 4px;
+    transition: all 0.8s;
+}
+.btn:active{
+    outline-offset: -8px;
+    border-color:  3px solid black;
+}

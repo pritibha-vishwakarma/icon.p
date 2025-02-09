@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web AI App</title> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="loader" class="overlay">
+        <span class="loader"></span>
+    </div>
+    <div class = "container">
+        <div class="box1">
+            <div class="logo">
+            <img src="https://react-ai.techsimplus.com/static/media/react-ai.b987b3462bb9e5e0a99f.png" alt="">
+           <p>AI WEB LOGO</p>
+        </div>
+        <div class="title">
+            <h3>Ai-powered fun with web app </h3>
+            <p style="margin-top:-10px; font-size:14px;  color : gray;">Let's Play With AI</p>
+            </div>
+        
+        <div class="drop-zone">
+            <input id = "file" type="file" hidden>
+            <label for="file">Choose Your Image</label>
+        </div>
+
+
+
+       <div  class="service-container">
+        
+        <div class="ai-service-item">
+            <input class ="ai-service-item-input" value="Object id= "celebrity-detection" name ="service" type="radio"/>
+            <!-- <input  value ="ObjectDetection" id = "object-detection" name = "service" type="radio"> -->
+            <label for="object-detection">Object Detection</label>
+        </div>
+        
+        <div class="ai-service-item">
+            <input class ="ai-service-item-input" value="Face-Detection id= "celebrity-detection" name ="service" type="radio"/>
+            <!-- <input value="FaceDetection" id = "face-detection" name = "service" type="radio"> -->
+            <label for="face-detection">Face Detection</label>
+        </div>
+            <div class=" ai-service-item">
+                <input class ="ai-service-item-input" value="Celebrity-detection id= "celebrity-detection" name ="service" type="radio"/>
+                <!-- <input id = "celebrity-detection" name = "service" type="radio"> -->
+            <label for ="Celebrity-detection" >Celebrity-detection</label>
+        </div>
+    
+    </div>
+    <div id= "magic-btn" class="magic-btn">See The Magic </div>
+    </div>
+        <div class="box2"><img id="right-img" class="right-img" src="https://react-ai.techsimplus.com/static/media/image_1.4e3631dd929425346234.png" alt=""></div>
+    </div>
+
+    <div id="mymodal" class="modal">
+        <div class="modal-content">
+            <img id="result-image"/>
+        </div> 
+
+    </div>
+    
+    <script src = "/script.js"></script>
+    
+</body>
+</html>
